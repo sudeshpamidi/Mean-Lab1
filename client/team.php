@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<?php $subTitle = "Home";
+<?php $subTitle = "Teams";
  include("inc/head.php"); ?>
 
 <body id="page-top">

@@ -11,7 +11,7 @@
     <div id="wrapper">
         <!-- Sidebar -->
         <?php include("inc/sidebar.php"); ?>
-        
+
         <div id="content-wrapper">
             <div class="container-fluid">
                 <h1>Team</h1>
@@ -19,7 +19,7 @@
                 <!-- Breadcrumbs-->
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="teams.html">Teams</a>
+                        <a href="teams.php">Teams</a>
                     </li>
                     <li class="breadcrumb-item active">Team Info</li>
                 </ol>

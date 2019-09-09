@@ -1,72 +1,16 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/v4-shims.css">
-    <link rel="stylesheet" href="./css/stylesheet.css">
-    <title>South Windsor Soccer Club</title>
-</head>
+<?php $subTitle = "Teams";
+ include("inc/head.php"); ?>
 
 <body id="page-top">
 
-    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-        <a class="navbar-brand mr-1" href="index.html">South Windsor Soccer Club</a>
-        <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle">
-          <i class="fas fa-bars"></i>
-        </button>
-
-        <!-- Navbar Search -->
-        <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
-            &nbsp;
-            <!--Place holder for new enhancement-->
-        </div>
-
-        <!-- Navbar -->
-        <ul class="navbar-nav ml-auto ml-md-0">
-
-            <li class="nav-item mx-1">
-                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-        </ul>
-    </nav>
+    <?php include("inc/nav.php"); ?>
 
     <div id="wrapper">
         <!-- Sidebar -->
-        <ul class="sidebar navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="leagues.html">
-                    <i class="fas fa-futbol"></i>
-                    <span>Leagues</span>
-                </a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="teams.html">
-                    <i class="fas fa-users-cog"></i>
-                    <span>Teams</span></a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i class="fas fa-tools"></i>
-                    <span>Admin</span>
-                </a>
-                <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-                    <h6 class="dropdown-header">Teams:</h6>
-                    <a class="dropdown-item" href="team.html">Add New Team</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Contacts</span></a>
-            </li>
-        </ul>
+        <?php include("inc/sidebar.php"); ?>
 
         <div id="content-wrapper">
             <div class="container-fluid">

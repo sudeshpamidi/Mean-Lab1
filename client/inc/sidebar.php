@@ -1,12 +1,12 @@
         <!-- Sidebar -->
         <ul class="sidebar navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item <?php if($subTitle =="Leagues") { echo "active"; } ?>">
                 <a class="nav-link" href="leagues.php">
                     <i class="fas fa-futbol"></i>
                     <span>Leagues</span>
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item <?php if($subTitle =="Teams") { echo "active"; } ?>">
                 <a class="nav-link" href="teams.php">
                     <i class="fas fa-users-cog"></i>
                     <span>Teams</span></a>
